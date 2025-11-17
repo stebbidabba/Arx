@@ -79,12 +79,12 @@ const About = () => {
                 <div className="p-6 space-y-4 flex-grow flex flex-col relative z-10">
                   {/* Name & Role */}
                   <div className="space-y-2">
-                    <h3 className="text-xl md:text-2xl font-bold text-white group-hover:text-[#9c54f3] transition-colors duration-300">
+                    <h3 className="text-xl md:text-2xl font-bold text-white transition-colors duration-300">
                       {member.name}
                     </h3>
                     <div className="flex items-center gap-2">
                       <div className="h-[1px] w-8 bg-gradient-to-r from-[#9c54f3] to-transparent group-hover:w-12 transition-all duration-300" />
-                      <p className="text-sm text-[#9c54f3]/70 group-hover:text-[#9c54f3] transition-colors duration-300">
+                      <p className="text-base md:text-lg font-medium text-white/90 group-hover:text-white transition-colors duration-300">
                         {member.role}
                       </p>
                     </div>
@@ -109,7 +109,7 @@ const About = () => {
                           />
                         </div>
                       )}
-                      <span className="text-base text-white/50 group-hover/email:text-[#9c54f3] transition-colors duration-300">
+                      <span className="text-base text-white/70 group-hover/email:text-white transition-colors duration-300">
                         {member.email}
                       </span>
                     </a>
@@ -123,7 +123,7 @@ const About = () => {
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                         </svg>
                       </div>
-                      <span className="text-base text-white/50 group-hover/phone:text-[#9c54f3] transition-colors duration-300 whitespace-nowrap">
+                      <span className="text-base text-white/70 group-hover/phone:text-white transition-colors duration-300 whitespace-nowrap">
                         {member.phone}
                       </span>
                     </a>
