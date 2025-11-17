@@ -55,11 +55,18 @@ const Projects = () => {
             whileHover={{ scale: 1.1, transition: { duration: 0.3 } }}
             className="flex items-center justify-center"
           >
-            <img
-              src="https://customer-assets.emergentagent.com/job_arxdigital-team/artifacts/rwqa9c5t_Untitled%20design%20-%202025-10-31T204748.024.png"
-              alt="Verki Logo"
-              className="w-80 h-auto object-contain"
-            />
+            <a
+              href="https://verki.is"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cursor-pointer"
+            >
+              <img
+                src="https://customer-assets.emergentagent.com/job_arxdigital-team/artifacts/rwqa9c5t_Untitled%20design%20-%202025-10-31T204748.024.png"
+                alt="Verki Logo"
+                className="w-80 h-auto object-contain"
+              />
+            </a>
           </motion.div>
 
           <motion.div
@@ -67,11 +74,18 @@ const Projects = () => {
             whileHover={{ scale: 1.1, transition: { duration: 0.3 } }}
             className="flex items-center justify-center"
           >
-            <img
-              src="https://customer-assets.emergentagent.com/job_arxdigital-team/artifacts/k1k14gzr_Kaggi%20%284%29%20%281%29.png"
-              alt="Kaggi Logo"
-              className="w-80 h-auto object-contain"
-            />
+            <a
+              href="https://kaggi.is"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cursor-pointer"
+            >
+              <img
+                src="https://customer-assets.emergentagent.com/job_arxdigital-team/artifacts/k1k14gzr_Kaggi%20%284%29%20%281%29.png"
+                alt="Kaggi Logo"
+                className="w-80 h-auto object-contain"
+              />
+            </a>
           </motion.div>
         </motion.div>
       </div>
