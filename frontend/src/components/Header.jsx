@@ -11,8 +11,7 @@ const Header = () => {
       style={{
         background: 'linear-gradient(to bottom, rgba(244, 241, 255, 1) 0%, rgba(247, 244, 255, 0.7) 30%, rgba(250, 248, 255, 0.3) 70%, transparent 100%)',
         backdropFilter: 'blur(10px)',
-        WebkitBackdropFilter: 'blur(10px)',
-        borderBottom: '1px solid rgba(156, 84, 243, 0.08)'
+        WebkitBackdropFilter: 'blur(10px)'
       }}
     >
       <div className="container mx-auto px-4 lg:px-8">
